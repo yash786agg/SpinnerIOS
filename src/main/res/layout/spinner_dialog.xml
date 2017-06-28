@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/number_picker_dialog"
+    android:layout_width="match_parent"
+    android:layout_height="170dp"
+    android:layout_alignParentBottom="true">
+
+    <ListView
+        android:id="@+id/listview_spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="none"
+        android:listSelector="@android:color/darker_gray" />
+
+</RelativeLayout>

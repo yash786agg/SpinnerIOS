@@ -1,0 +1,11 @@
+<resources>
+    /****Below is the custom Animation used for Spinner Dialog***************/
+
+    <style name="custom_alert_dialog_animation_spinner">
+        <item name="android:windowEnterAnimation">@anim/bottom_animation_number_picker</item>
+        <item name="android:windowExitAnimation">@anim/custom_alert_dialog_slide_out_down_animation</item>
+    </style>
+
+    /****Above is the custom Animation used for Spinner Dialog***************/
+
+</resources>
